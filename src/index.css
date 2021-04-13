@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "whiteSpace canvas whiteSpace"
+        "whiteSpace instructions whiteSpace"
+    ;
+
+    justify-content: center;
+}
+
+.game-title {
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+#game-canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black solid 2px;
+}

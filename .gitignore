@@ -1,0 +1,36 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# Runtime Data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs and Editors
+.idea
+.project
+.settings/
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscore/extensions.json
+
+logs
+*.log
+
+.npm
+
+.eslintcache
+
+.env
+
+.DS_Store
+
+.parcel-cache
+
+node_modules/
